@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Elements
+    let timeoutId;
     const homeButton = document.getElementById('homeButton');
     const homeDropdown = document.getElementById('homeDropdown');
     const rideForm = document.getElementById('rideForm');
